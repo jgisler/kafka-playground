@@ -8,10 +8,18 @@
     <groupId>org.gislers</groupId>
     <artifactId>kafka-playground</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <modules>
         <module>kafka-producer</module>
+        <module>kafka-consumer</module>
     </modules>
-    <packaging>pom</packaging>
+
+    <scm>
+        <connection>scm:git:git@github.com:jgisler/kafka-playground.git</connection>
+        <developerConnection>scm:git:git@github.com:jgisler/kafka-playground.git</developerConnection>
+        <url>https://github.com/jgisler/kafka-playground</url>
+    </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

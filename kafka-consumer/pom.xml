@@ -10,7 +10,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>kafka-producer</artifactId>
+    <artifactId>kafka-consumer</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
